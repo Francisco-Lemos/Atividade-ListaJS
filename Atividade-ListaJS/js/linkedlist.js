@@ -87,7 +87,7 @@ class LinkedList {
     let output = '';/*A mensagem que representará a nossa lista iniciará com uma string vazia*/
     let current = this.head;
     while (current !== null) {/*No while faremos uma iteração em nossa lista*/
-      output += current.content + separator;/*Aqui adicionamos ao nosso output o conteúdo de nossos concatenado ao separador"
+      output += current.content + separator;//Aqui adicionamos ao nosso output o conteúdo de nossos nós concatenado ao separador"
       current = current.next;/* Aqui temos o "incremento" ...digamos assim.... do nosso iterador*/ 
     }
     return output.substring(0, (output.length - separator.length));/* Ao final extraímos um subconjunto de nosso outpur, indo
